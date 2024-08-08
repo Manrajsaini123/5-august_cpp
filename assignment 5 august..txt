@@ -1,0 +1,782 @@
+1
+#include<bits/stdc++.h>
+using namespace std;
+void d()
+{
+    cout<<"d started\n";
+    cout<<"d completed\n";
+}
+
+void c()
+{
+    cout<<"c started\n";
+    d();
+    cout<<"c completed\n";
+}
+void b()
+{
+    cout<<"b started\n";
+    c();
+    cout<<"b completed\n";
+}
+void a()
+{
+    cout<<"a started\n";
+    b();
+    cout<<"a completed\n";
+}
+int main()
+{
+    a();
+    return 0;
+}
+===============================================================================================================
+2
+
+#include<bits/stdc++.h>
+using namespace std;
+void j()
+{
+ cout<<"j is startrd and completed\n";
+}
+void i()
+{
+    cout<<"i is startrd and completed\n";
+}
+void d()
+{
+ cout<<"d is startrd\n";
+ i();
+ j();
+ cout<<"d is completed\n";
+}
+void h()
+{
+    cout<<"h is started and completed\n";
+}
+void g()
+{
+    cout<<"g is started and completed\n";
+}
+void c()
+{
+  cout<<"c is started\n";
+  h();
+  g();
+  cout<<"c is completed\n";
+}
+void f()
+{
+   cout<<"f is started and completed\n";
+}
+void e()
+{ 
+      cout<<"e is started and completed\n";
+  }
+  void b()
+  { 
+      cout<<"b is started\n";
+      e();
+      b();
+      cout<<"b is completed\n";
+  }
+  void a()
+  {
+      cout<<"a is started\n";
+      b();
+      c();
+      d();
+      cout<<"a is completed\n";
+  }
+  int main()
+  {
+      cout<<"main started\n";
+      a();
+      cout<<"main completed\n";
+  }
+==========================================================================================================================
+4
+.#include<bits/stdc++.h>
+using namespace std;
+void f()
+{
+    cout<<"f started\n";
+    cout<<"f completed\n";
+}
+void e()
+{
+    cout<<"e started\n";
+    cout<<"e completed\n";
+}
+void d()
+{
+    cout<<"d started\n";
+    cout<<"d completed\n";
+}
+void c()
+{
+    cout<<"c started\n";
+    d();
+    e();
+    f();
+    cout<<"c completed\n";
+}
+void b()
+{
+    cout<<"b started\n";
+    c();
+    cout<<"b completed\n";
+}
+void a()
+{
+    cout<<"a started\n";
+    b();
+    cout<<"a completed\n";
+}
+int main()
+{
+    a();
+    return 0;
+}
+=========================================================================================================
+8
+include<bits/stdc++.h>
+using namespace std;
+void h()
+{
+    cout<<"h started\n";
+    cout<<"h completed\n";
+}
+void g()
+{
+    cout<<"g started\n";
+    h();
+    cout<<"g completed\n";
+}
+void e()
+{
+    cout<<"e started\n";
+    h();
+    cout<<"e completed\n";
+}
+void f()
+{
+    cout<<"f started\n";
+ g();
+    cout<<"f completed\n";
+}
+void d()
+{
+    cout<<"d started\n";
+    e();
+    cout<<"d completed\n";
+}
+void c()
+{
+    cout<<"c started\n";
+    d();
+    cout<<"c completed\n";
+}
+void b()
+{
+    cout<<"b started\n";
+    f();
+    cout<<"b completed\n";
+}
+void a()
+{
+    cout<<"a started\n";
+    b();
+    c();
+    cout<<"a completed\n";
+}
+int main()
+{
+    a();
+    return 0;
+}
+========================================================================================================
+
+
+
+
+1. 15 integer data from user and print them
+
+#include <iostream>
+
+int main() {
+
+    using namespace std;
+    int num1, num2, num3, num4, num5;
+    int num6, num7, num8, num9, num10;
+    int num11, num12, num13, num14, num15;
+
+    
+    cout << "Enter 15 integer:" << endl;
+    cin >> num1 >> num2 >> num3 >> num4 >> num5;
+    cin >> num6 >> num7 >> num8 >> num9 >> num10;
+    cin >> num11 >> num12 >> num13 >> num14 >> num15;
+
+     
+    cout << "15 integer is:" << endl;
+    cout << num1 << " " << num2 << " " << num3 << " " << num4 << " " << num5 << " ";
+    cout << num6 << " " << num7 << " " << num8 << " " << num9 << " " << num10 << " ";
+    cout << num11 << " " << num12 << " " << num13 << " " << num14 << " " << num15 << endl;
+
+    return 0;
+}
+================================================================================================================
+
+2. print Hello myself _______ I am from _____ I have completed btech from ______.
+
+ //print Hello myself _______ I am from _____ I have completed btech from ______.
+
+#include <iostream>
+using namespace std;
+
+int main() {
+     
+ 
+  cout << "Hello myself manraj I am from pali,rajasthan I have completed mca from sangam  university, bhilwara";  
+   
+  
+  return 0;
+}
+=====================================================================================================================================================================
+
+3. sum of a and b using user input 
+  
+
+#include <bits/stdc++.h>
+using namespace std;
+
+int main() {
+     int a;
+     int b;
+     cout<<"enter the value of a:"<<a;
+     cin>>a;
+     cout<<"enter the value of b:"<<b;
+     cin>>b;
+     int c;
+     c=a+b;
+ 
+  cout<< " sum of a and b is:"<<c;  
+   
+  
+  return 0;
+}
+=====================================================================================================================================================================
+
+4. sub of a and b karna hai if sub is negative then use math to make it positive.
+#include <iostream>
+
+int main() {
+     
+     using namespace std;
+    int a, b, c;
+  
+    cout << "Enter two integers (a and b):" <<  endl;
+    cin >> a >> b;
+   
+    c = a - b;
+
+    if (c < 0) {
+        c = -c;
+    }
+
+   cout << "The positive result of the subtraction is: " << c << endl;
+
+    return 0;
+}
+=======================================================================================================================================================================
+5. calcualte the average of 5 numbers.
+
+#include <iostream>
+
+int main() {
+    
+    using namespace std;
+    int num1, num2, num3, num4, num5;
+    int sum;
+    double average;
+ 
+    cout << "Enter 5 numbers:" << endl;
+    cin >> num1 >> num2 >> num3 >> num4 >> num5;
+ 
+    sum = num1 + num2 + num3 + num4 + num5;
+ 
+    average = sum / 5.0;
+
+     
+    cout << "The average of the entered integers is: " << average << endl;
+
+    return 0;
+}
+=======================================================================================================================================================================
+
+
+6. swap the values of a and b
+
+#include <iostream>
+
+int main() {
+
+    using namespace std;
+    int a, b;
+
+  
+    cout << "Enter two integers (a and b):" << endl;
+    cin >> a >> b;
+ 
+     a=a+b;
+     b=a-b;
+     a=a-b;
+     
+ 
+    cout << "After swapping, a = " << a << " and b = " << b << endl;
+
+    return 0;
+}
+======================================================================================================================================================================
+
+7. take an input from user and check whether it is positive negative or 0.
+
+#include <iostream>
+
+int main() {
+    
+    using namespace std;
+    int num;
+
+ 
+    cout << "Enter an integer: " << endl;
+    cin >> num;
+
+     
+    if (num > 0) {
+        cout << "The number is positive." << endl;
+    } else if (num < 0) {
+        cout << "The number is negative." << endl;
+    } else {
+        cout << "The number is zero." << endl;
+    }
+
+    return 0;
+}
+=======================================================================================================================================================================
+
+8. take input from user and check whether it is even or odd.
+
+#include <iostream>
+
+int main() {
+
+    using namespace std;
+    int num;
+
+   
+    cout << "Enter an integer: " << endl;
+    cin >> num;
+
+    
+    if (num % 2 == 0) {
+        cout << "The number is even." << endl;
+    } else {
+        cout << "The number is odd." << endl;
+    }
+
+    return 0;
+}
+=======================================================================================================================================================================
+
+#include<iostream>
+ using namespace std;
+
+void I()
+{
+cout<<"I started\n"; 
+cout<<"I ended\n"; 
+}
+
+void H()
+{
+cout<<"H started\n"; 
+cout<<"H ended\n"; 
+}
+
+void G()
+{
+cout<<"G started\n"; 
+cout<<"G ended\n"; 
+}
+
+void F()
+{
+cout<<"F started\n"; 
+G();
+H();
+I();
+cout<<"F ended\n"; 
+}
+
+void E()
+{
+cout<<"E started\n"; 
+cout<<"E ended\n"; 
+}
+
+void D()
+{
+cout<<"D started\n"; 
+F(); 
+cout<<"D ended\n";
+}
+
+void C()
+{
+cout<<"C started\n";
+ 
+cout<<"C ended\n"; 
+}
+
+void B()
+{
+cout<<"B started\n"; 
+ C();
+ D();
+ E();
+cout<<"B ended\n"; 
+}
+
+void A()
+{
+cout<<"A started\n"; 
+ B();
+cout<<"A ended\n"; 
+}
+
+int main()
+ {
+cout<<"Main started\n"; 
+A();
+cout<<"Main ended\n"; 
+return 0;
+}
+=====================================================================================================================================================================
+
+5.
+
+H();
+cout<<"E#include<iostream>
+ using namespace std;
+
+void I()
+{
+cout<<"I started\n"; 
+cout<<"I ended\n"; 
+}
+
+void H()
+{
+cout<<"H started\n"; 
+cout<<"H ended\n"; 
+}
+
+void G()
+{
+cout<<"G started\n"; 
+I();
+cout<<"G ended\n"; 
+}
+
+void F()
+{
+cout<<"F started\n"; 
+ 
+cout<<"F ended\n"; 
+}
+
+void E()
+{
+cout<<"E started\n";
+F();
+G();
+ ended\n"; 
+}
+
+void D()
+{
+cout<<"D started\n"; 
+ 
+cout<<"D ended\n";
+}
+
+void C()
+{
+cout<<"C started\n";
+  E();
+cout<<"C ended\n"; 
+}
+
+void B()
+{
+cout<<"B started\n"; 
+ 
+cout<<"B ended\n"; 
+}
+
+void A()
+{
+cout<<"A started\n"; 
+ B();
+ C();
+ D();
+cout<<"A ended\n"; 
+}
+
+int main()
+ {
+cout<<"Main started\n"; 
+A();
+cout<<"Main ended\n"; 
+return 0;
+}
+==============================================================================================================================================
+
+7.
+#include<iostream>
+ using namespace std;
+ 
+void G()
+{
+cout<<"G started\n"; 
+ 
+cout<<"G ended\n"; 
+}
+
+void F()
+{
+cout<<"F started\n"; 
+ 
+cout<<"F ended\n"; 
+}
+
+void E()
+{
+cout<<"E started\n";
+ 
+cout<<"E ended\n"; 
+}
+
+void D()
+{
+cout<<"D started\n"; 
+ E();
+ F();
+ G();
+cout<<"D ended\n";
+}
+
+void C()
+{
+cout<<"C started\n";
+ D(); 
+cout<<"C ended\n"; 
+}
+
+void B()
+{
+cout<<"B started\n"; 
+ C();
+cout<<"B ended\n"; 
+}
+
+void A()
+{
+cout<<"A started\n"; 
+ B();
+cout<<"A ended\n"; 
+}
+
+int main()
+ {
+cout<<"Main started\n"; 
+A();
+cout<<"Main ended\n"; 
+return 0;
+}
+=======================================================================================================================================================================
+
+
+8.
+#include<iostream>
+ using namespace std;
+ 
+void H()
+{
+cout<<"H started\n"; 
+cout<<"H ended\n"; 
+}
+
+void G()
+{
+cout<<"G started\n"; 
+ H();
+cout<<"G ended\n"; 
+}
+
+void F()
+{
+cout<<"F started\n"; 
+ G();
+cout<<"F ended\n"; 
+}
+
+void E()
+{
+cout<<"E started\n";
+H(); 
+cout<<"E ended\n"; 
+}
+
+void D()
+{
+cout<<"D started\n"; 
+ E();
+cout<<"D ended\n";
+}
+
+void C()
+{
+cout<<"C started\n";
+  D();
+cout<<"C ended\n"; 
+}
+
+void B()
+{
+cout<<"B started\n"; 
+ F();
+cout<<"B ended\n"; 
+}
+
+void A()
+{
+cout<<"A started\n"; 
+ B();
+ C();
+cout<<"A ended\n"; 
+}
+
+int main()
+ {
+cout<<"Main started\n"; 
+A();
+cout<<"Main ended\n"; 
+return 0;
+}
+====================================================================================================================================================================
+
+
+
+9.
+#include<iostream>
+ using namespace std;
+
+void D()
+{
+cout<<"D started\n"; 
+ 
+cout<<"D ended\n";
+}
+
+void C()
+{
+cout<<"C started\n";
+ D();
+cout<<"C ended\n"; 
+}
+
+void B()
+{
+cout<<"B started\n"; 
+D(); 
+cout<<"B ended\n"; 
+}
+
+void A()
+{
+cout<<"A started\n"; 
+  B();
+  C();
+cout<<"A ended\n"; 
+}
+
+int main()
+ {
+cout<<"Main started\n"; 
+A();
+cout<<"Main ended\n"; 
+return 0;
+}
+===================================================================================================================================================================
+
+
+10.
+
+#include<iostream>
+ using namespace std;
+ 
+void F()
+{
+cout<<"F started\n"; 
+ 
+cout<<"F ended\n"; 
+}
+
+void E()
+{
+cout<<"E started\n";
+  F();
+cout<<"E ended\n"; 
+}
+
+void D()
+{
+cout<<"D started\n"; 
+ F();
+cout<<"D ended\n";
+}
+
+void C()
+{
+cout<<"C started\n";
+ E();
+cout<<"C ended\n"; 
+}
+
+void B()
+{
+cout<<"B started\n"; 
+ D();
+cout<<"B ended\n"; 
+}
+
+void A()
+{
+cout<<"A started\n"; 
+   B();
+   C();
+cout<<"A ended\n"; 
+}
+
+int main()
+ {
+cout<<"Main started\n"; 
+A();
+cout<<"Main ended\n"; 
+return 0;
+}
+===============================================================================================================================================
+
+
